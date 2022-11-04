@@ -10,3 +10,9 @@
     padding: 26px 0;
     
 }
+
+@media screen and (max-width: 480px){
+    .rodape{
+        font-size: 18px;
+    }
+}

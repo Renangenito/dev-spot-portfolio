@@ -14,9 +14,15 @@
 .projetos a{
  margin: 0 24px 24px 0;
  margin-bottom: 24px;
+ line-height: 64px;
 }
 @media screen and (max-width: 480px){
     .projetos{
         width: 100%;
+        text-align: center;
+    }
+   
+    .titulo-projetos{
+        margin: 50px 0 24px 0;
     }
 }
