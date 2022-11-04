@@ -17,7 +17,7 @@
     height: 70px;
     margin: 0 auto;
     margin-bottom: 2em;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--azul-claro);
     border-radius: 10px;
 }
 

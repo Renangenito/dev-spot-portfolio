@@ -20,7 +20,7 @@
 }
 
 .titulo-principal span {
-    color: #22D4FD;
+    color: var(--azul-claro);
 }
 
 .texto-sobre {
@@ -40,10 +40,10 @@
 .botao-contato {
     width: 280px;
     height: 64px;
-    background: #22D4FD;
+    background: var(--azul-claro);
     border: none;
     border-radius: 16px;
-    color: #123F77;
+    color: var(--azul-escuro);
     font-family: var(--fonte-texto);
     font-size: 24px;
     font-weight: bold;

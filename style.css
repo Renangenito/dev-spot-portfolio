@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-@import url('./css/_cabecalho.css');
-@import url('./css/_secao-principal.css');
-@import url('./css/_secao-minhas-redes.css');
-@import url('./css/_secao-projetos.css');
-@import url('./css/_rodape.css');
+@import url('./css/_home-cabecalho.css');
+@import url('./css/_home-secao-principal.css');
+@import url('./css/_home-secao-minhas-redes.css');
+@import url('./css/_home-secao-projetos.css');
+@import url('./css/_home-rodape.css');
+@import url('./css/_sobre-principal.css');
 
 
 :root {
-    --azul: #123F77;
+    --azul-escuro: #123F77;
     --azul-claro: #22D4FD;
     --azul-gradiente:  linear-gradient(174.61deg, #041833 4.16%, #04244F 48%, #154580 96.76%);
     --branco: #FFFFFF;

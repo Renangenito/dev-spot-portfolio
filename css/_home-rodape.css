@@ -6,7 +6,7 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
-    color: #123F77;
+    color: var(--azul-escuro);
     padding: 26px 0;
     
 }
