@@ -1,0 +1,54 @@
+.secao-minhas-redes {
+    width: 100%;
+    margin-top: 88px;
+    text-align: center;
+}
+
+.titulo-redes {
+    font-family: var(--fonte-titulo);
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-bottom: 94px;
+}
+
+.redes li {
+    width: 389px;
+    height: 70px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    border: 2px solid #22D4FD;
+    border-radius: 10px;
+}
+
+.redes a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: var(--fonte-texto);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.redes span {
+    margin-bottom: 1px;
+}
+
+.redes a img {
+    vertical-align: bottom;
+    margin: 0.7em 1em 0 0;
+}
+
+@media screen and (max-width: 480px){
+    .secao-minhas-redes{
+        margin-top: 140px;
+    }
+    .titulo-redes{
+        width: 312px;
+        font-size: 24px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .redes li{
+        width: 90%;
+    }
+}

@@ -1,0 +1,22 @@
+.titulo-projetos{
+    font-family: var(--fonte-titulo);
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 64px;
+}
+.projetos{
+    width: 1236px;
+    margin: 0 auto;
+}
+.projetos a{
+ margin: 0 24px 24px 0;
+ margin-bottom: 24px;
+}
+@media screen and (max-width: 480px){
+    .projetos{
+        width: 100%;
+    }
+}
