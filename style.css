@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(174.61deg, #041833 4.16%, #04244F 48%, #154580 96.76%) no-repeat;
+}
+
+.menu-principal {
+    width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.div-logo {
+    margin: 4em auto;
+    width: 1140px;
+    height: 100%;
+}
+
+.logo {
+    display: inline;
+    vertical-align: top;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.secao-principal {
+    /* margin: 47px 0 0 360px; */
+    margin: 47px auto;
+    width: 1140px;
+}
+
+.sobre {
+    display: inline-block;
+    width: 593px;
+    height: 495px;
+    vertical-align: top;
+    margin-right: 53px;
+}
+
+.titulo-principal {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    line-height: 56px;
+}
+
+.titulo-principal span {
+    color: #22D4FD;
+}
+
+.texto-sobre {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 36px;
+    margin-top: 40px;
+    font-weight: 400;
+}
+
+.botoes {
+    margin-top: 52px;
+}
+
+.botao-sobre,
+.botao-contato {
+    width: 280px;
+    height: 64px;
+    background: #22D4FD;
+    border: none;
+    border-radius: 16px;
+    color: #123F77;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.botao-sobre:hover,
+.botao-contato:hover {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.botao-sobre {
+    margin-right: 24px;
+}
+
+.imagem {
+    display: inline;
+    width: 467.71px;
+    height: 532px;
+    border-radius: 16px;
+}
+
+.secao-minhas-redes {
+    width: 100%;
+    margin-top: 88px;
+    text-align: center;
+}
+
+.titulo-redes {
+    font-family: 'Krona One', sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-bottom: 94px;
+}
+
+.redes li {
+    width: 389px;
+    height: 70px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    border: 2px solid #22D4FD;
+    border-radius: 10px;
+}
+
+.redes a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.redes span {
+    margin-bottom: 1px;
+}
+
+.redes a img {
+    vertical-align: bottom;
+    margin: 0.7em 1em 0 0;
+}
+
+.rodape {
+    text-align: center;
+    background-color: #22D4FD;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #123F77;
+    padding: 26px 0;
+    
+}
